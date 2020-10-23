@@ -1,0 +1,14 @@
+.navbar {
+  position: relative;
+  width: 430px;
+  height: 430px;
+  background-color: rgb(17, 197, 221);
+  border-radius: 50%;
+  left: -200px;
+  top: -200px;
+}
+.nav-text {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+}

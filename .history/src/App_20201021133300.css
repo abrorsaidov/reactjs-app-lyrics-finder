@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Indie Flower", cursive;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(160, 97, 46, 0.425),
+      rgba(10, 105, 73, 0.548)
+    ),
+    url("./plastinka.jpg");
+}
+
+.navbar {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(#eeff00, rgba(211, 55, 81, 0.712));
+  border-radius: 50%;
+  left: -270px;
+  top: -350px;
+  position: fixed;
+}
+.nav-text {
+  position: absolute;
+  bottom: 15%;
+  right: 14%;
+  font-size: 20px;
+}
+.container-mine {
+  position: relative;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  height: auto;
+  width: auto;
+  margin-top: 8%;
+  margin-right: 17%;
+  margin-left: 17%;
+  /* left: 20%;
+  right: 10%;
+  top: 15%;
+  bottom: 0%; */
+}
+@media (max-width: 1050px) {
+  .navbar {
+    top: -410px;
+    left: -240px;
+  }
+  .container-mine {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 10%;
+  }
+  .nav-text {
+    bottom: 9%;
+    right: 23%;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 870px) {
+  .navbar {
+    top: -460px;
+    left: -210px;
+  }
+  .container-mine {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 13%;
+  }
+  .nav-text {
+    bottom: 2%;
+    right: 33%;
+    font-size: 15px;
+  }
+}
+
+@media (max-height: 580px) {
+  .navbar {
+    top: -450px;
+    left: -240px;
+  }
+  .container-mine {
+    margin-top: 5%;
+  }
+  .nav-text {
+    bottom: 3%;
+    right: 30%;
+    font-size: 14px;
+  }
+}
+
+.viewBtn {
+  margin: auto;
+  background-color: rgba(0, 255, 255, 0.603);
+  width: 40%;
+}
+.viewBtn:hover {
+  width: 50%;
+  border-radius: 20px;
+  background-color: rgba(7, 255, 119, 0.226);
+}

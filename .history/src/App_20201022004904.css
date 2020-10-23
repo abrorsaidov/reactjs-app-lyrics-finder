@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Indie Flower", cursive;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(192, 97, 42, 0.562),
+      rgba(25, 207, 147, 0.548)
+    ),
+    url("./plastinka.jpg");
+}
+
+.navbar {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(#fffb00, rgba(0, 255, 255, 0.671));
+  border-radius: 50%;
+  left: -270px;
+  top: -350px;
+  position: fixed;
+}
+
+.about {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(#fffb00, rgba(0, 255, 255, 0.671));
+  border-radius: 50%;
+  right: -270px;
+  top: -350px;
+  position: fixed;
+}
+
+.nav-text {
+  position: absolute;
+  bottom: 15%;
+  right: 14%;
+  font-size: 20px;
+  color: #000;
+}
+
+.about-text {
+  position: absolute;
+  bottom: 15%;
+  left: 14%;
+  font-size: 22px;
+  color: #000;
+}
+
+.about-text:hover {
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.nav-text:hover {
+  font-size: 21px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container-mine {
+  position: relative;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 255, 255, 0.925),
+    rgba(54, 185, 82, 0.356)
+  );
+  height: auto;
+  width: auto;
+  margin-top: 8%;
+  margin-right: 17%;
+  margin-left: 17%;
+  /* left: 20%;
+  right: 10%;
+  top: 15%;
+  bottom: 0%; */
+}
+@media (max-width: 1050px) {
+  .navbar {
+    top: -410px;
+    left: -240px;
+  }
+  .about {
+    top: -410px;
+    right: -240px;
+  }
+  .container-mine {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 10%;
+  }
+  .nav-text {
+    bottom: 9%;
+    right: 23%;
+    font-size: 17px;
+  }
+  .nav-text:hover {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .about-text {
+    bottom: 9%;
+    left: 23%;
+    font-size: 18px;
+  }
+  .about-text:hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 870px) {
+  .navbar {
+    top: -460px;
+    left: -210px;
+  }
+  .about {
+    top: -460px;
+    right: -210px;
+  }
+  .container-mine {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 13%;
+  }
+  .nav-text {
+    bottom: 2%;
+    right: 33%;
+    font-size: 15px;
+  }
+  .about-text {
+    bottom: 2%;
+    left: 33%;
+    font-size: 15px;
+  }
+}
+
+@media (max-height: 580px) {
+  .navbar {
+    top: -450px;
+    left: -240px;
+  }
+  .about {
+    top: -450px;
+    right: -240px;
+  }
+  .container-mine {
+    margin-top: 5%;
+  }
+  .nav-text {
+    bottom: 3%;
+    right: 30%;
+    font-size: 14px;
+  }
+  .about-text {
+    bottom: 3%;
+    left: 30%;
+    font-size: 14px;
+  }
+}
+
+.viewBtn {
+  margin: auto;
+  background-color: rgba(0, 255, 255, 0.603);
+  width: 150px;
+}
+.viewBtn:hover {
+  width: 50%;
+  border-radius: 20px;
+  background-color: rgba(7, 255, 119, 0.226);
+}
+
+.myCard {
+  background-color: rgba(255, 255, 255, 0.719);
+}
+
+.lyricsContainer,
+.lyricsDetails {
+  opacity: 0.9;
+  border-style: hidden;
+}
+pre {
+  font-family: "Indie Flower", cursive;
+  font-size: 18px;
+}
+
+.lyricsUL {
+  border-radius: 0px;
+}
+.goBack {
+  background-color: rgba(13, 131, 160, 0.808);
+  border-style: hidden;
+}
+.goBack:hover {
+  background-color: rgba(7, 255, 119, 0.63);
+  color: #000;
+}
+
+.goBack:focus {
+  outline: none;
+}
+
+.about-page-text {
+  font-size: 19px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 10%;
+  background: linear-gradient(#249e57c0, rgba(0, 255, 255, 0.671));
+}
+.search-heading {
+  position: absolute;
+  font-size: 14px;
+  left: 10%;
+  top: 13%;
+  margin-right: 70px;
+}
+.search-welcome {
+  font-size: 14px;
+  margin-bottom: 0px;
+  bottom: 13%;
+  right: 10%;
+  position: absolute;
+}

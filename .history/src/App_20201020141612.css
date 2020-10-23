@@ -1,0 +1,7 @@
+.navbar {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(17, 197, 221);
+  border-radius: 50%;
+  left: -200px;
+}

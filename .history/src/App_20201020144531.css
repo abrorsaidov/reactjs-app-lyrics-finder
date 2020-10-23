@@ -1,0 +1,15 @@
+.navbar {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  background: linear-gradient(rgba(49, 160, 204, 0.4), rgba(221, 31, 31, 0.76));
+  border-radius: 50%;
+  left: -190px;
+  top: -270px;
+}
+.nav-text {
+  position: absolute;
+  bottom: 19%;
+  right: 14%;
+  font-size: 24px;
+}

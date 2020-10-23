@@ -1,0 +1,15 @@
+.navbar {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  background-color: rgb(17, 197, 221);
+  border-radius: 50%;
+  left: -170px;
+  top: -240px;
+}
+.nav-text {
+  position: absolute;
+  bottom: 22%;
+  right: 11%;
+  font-size: 24px;
+}

@@ -1,0 +1,24 @@
+.navbar {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  background: linear-gradient(#d9ff00, rgba(221, 106, 125, 0.849));
+  border-radius: 50%;
+  left: -230px;
+  top: -280px;
+}
+.nav-text {
+  position: absolute;
+  bottom: 19%;
+  right: 13%;
+  font-size: 20px;
+}
+.container-mine {
+  display: flex;
+  flex-direction: row
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  margin: 0 290px;
+  top: 10%;
+}

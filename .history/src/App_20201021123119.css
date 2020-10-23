@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(#eeff00, rgba(218, 101, 121, 0.671));
+  border-radius: 50%;
+  left: -270px;
+  top: -350px;
+}
+.nav-text {
+  position: absolute;
+  bottom: 15%;
+  right: 14%;
+  font-size: 20px;
+}
+.container-mine {
+  position: relative;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  height: auto;
+  width: auto;
+  margin-top: 8%;
+  margin-right: 17%;
+  margin-left: 17%;
+  /* left: 20%;
+  right: 10%;
+  top: 15%;
+  bottom: 0%; */
+}
+@media (max-width: 1050px) {
+  .navbar {
+    top: -410px;
+    left: -240px;
+  }
+  .container-mine {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 10%;
+  }
+  .nav-text {
+    bottom: 9%;
+    right: 23%;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 870px) {
+  .navbar {
+    top: -460px;
+    left: -210px;
+  }
+  .container-mine {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 13%;
+  }
+  .nav-text {
+    bottom: 2%;
+    right: 33%;
+    font-size: 15px;
+  }
+}
+
+@media (max-height: 580px) {
+  .navbar {
+    top: -450px;
+    left: -240px;
+  }
+  .container-mine {
+    margin-top: 5%;
+  }
+  .nav-text {
+    bottom: 3%;
+    right: 30%;
+    font-size: 14px;
+  }
+}
+
+.viewBtnText {
+}
+
+.viewBtn {
+  margin: auto;
+  background-color: aqua;
+  width: 20%;
+}
+.viewBtn:hover {
+  width: 50%;
+}
+.viewBtnText:hover {
+}

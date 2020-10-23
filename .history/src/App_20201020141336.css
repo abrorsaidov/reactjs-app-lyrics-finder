@@ -1,0 +1,7 @@
+.navbar {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(17, 197, 221);
+  transform: rotateY(-45deg);
+  transform: rotateX(-45deg);
+}

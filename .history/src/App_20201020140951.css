@@ -1,0 +1,16 @@
+.navbar {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(17, 197, 221);
+}
+.navbar:after{
+  content:"";
+  position:absolute;
+  left: -100px /* the width of your triangle */
+  top:0;
+  height: 0;
+   border-top: 50px solid transparent; /* half the height of your div */
+  border-left: 100px solid red; /* width of the triangle  + the color of your background*/
+  border-bottom: 50px solid transparent; /* half the height of your div */
+  width: 0; 
+  }
